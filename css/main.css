@@ -4,6 +4,16 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+
+	font-family: 'Open Sans','helvetica',arial,sans-serif;
+	font-weight: 300;
+	color: #62686f;
+}
+
+h1, h2, h3, h4, h5{
+
+	font-weight: 300;
+	color: #333;
 }
 
 .container{
@@ -48,3 +58,132 @@ body{
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
+
+.main-nav{
+
+	background-color: #333;
+	text-align: center;
+}
+
+.main-nav ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav ul li{
+
+	display: inline-block;
+	text-align: center;
+
+	margin: 15px 10px;
+
+}
+
+.main-nav ul li a{
+	color: #fff;
+	font-weight: 300;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.main-nav ul li a:hover{
+
+	text-decoration: underline;
+}
+
+.info-section{
+	background: #fff;
+
+	text-align: center;
+	padding: 30px 60px;
+}
+
+.info-section header h2 {
+	
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.info-section header h2:after{
+	content:"";
+	display: table;
+  	clear:both;
+  	margin-top: 20px;
+  	margin-left:370px;
+  	padding-left: 80px;
+	border-bottom: 3px solid black;
+}
+
+.info-section__description {
+  font-style: italic;
+}
+
+.whatido__skill-list{
+
+	/*overflow: hidden;*/
+
+	margin-top: 60px;
+
+}
+
+.whatido__skill-list ul{
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.whatido__skill-list ul li{
+	
+	text-align: center;
+}
+
+.whatido__skill--product:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+.whatido__skill-list .whatido__skill{
+	float: left;
+}
+
+
+.whatido__skill--code {
+ 	background-image: url(../img/skill-code.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	
+	width: 33%;
+
+ 	padding-top: 100px; 
+}
+
+.whatido__skill--design {
+ 	background-image: url(../img/skill-design.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+
+ 	width: 33%;
+
+ 	padding-top: 100px; 
+}
+
+.whatido__skill--product {
+	background-image: url(../img/skill-product.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+
+	width: 33%;
+
+	padding-top: 100px; 
+}
+
+
+
