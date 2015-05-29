@@ -222,7 +222,6 @@ h1, h2, h3, h4, h5{
     
 	display: inline-block;
     margin: 20px auto;
-    margin
 	
 }
 
@@ -237,6 +236,10 @@ h1, h2, h3, h4, h5{
 .education-experience__list p{
 	text-align: left;
 	margin-left: 200px;
+}
+
+.education-experience__description{
+	overflow: hidden;
 }
 
 .photos__list {
